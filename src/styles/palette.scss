@@ -1,0 +1,52 @@
+.palette-page {
+  padding: 2rem;
+  text-align: center;
+  background-color: #fefefe;
+}
+
+.palette-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.palette-description {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.palette-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.palette-color {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-warm {
+  background-color: #d35400;
+}
+
+.color-cool {
+  background-color: #2980b9;
+}
+
+.color-neutral {
+  background-color: #7f8c8d;
+}
+
+.color-soft {
+  background-color: #9b59b6;
+}
