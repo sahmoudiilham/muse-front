@@ -1,0 +1,41 @@
+.morphologie-container {
+  padding: 2rem;
+  text-align: center;
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+
+  .morphologie-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .option {
+      width: 150px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      p {
+        margin-top: 0.5rem;
+        font-weight: 500;
+        color: #444;
+      }
+    }
+  }
+}
